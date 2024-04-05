@@ -1,0 +1,24 @@
+/*This is the css example from the class tutorial to serve as a starting point. 
+We can make changes based on our preferences for our GUI.*/
+
+img {
+    height: 500px;
+    width: 500px;
+}
+body {
+    background-color:rgb(18, 224, 39); /*background color of the webpage if applicable*/
+}
+p {
+    color:rgb(55, 0, 255); /* color  and font style of the contents of paragraph p */
+    font-style: italic;
+    font-size: medium;
+    font-weight: bold;
+}
+p1 {
+    color:blue;  /* color  and font style of the contents of paragraph p1 */
+    font-weight: bolder;
+    font-size: xx-large;
+}
+body {
+    text-align:justify;
+}
