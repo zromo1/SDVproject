@@ -6,16 +6,36 @@ img {
     width: 500px;
 }
 body {
-    background-color:rgb(18, 224, 39); /*background color of the webpage if applicable*/
+    background-color:#00853E; /*background color of the webpage if applicable*/
+}
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+    margin:0;
+    padding:0;
+}
+h3 {
+    text-align: center;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
 }
 p {
-    color:rgb(55, 0, 255); /* color  and font style of the contents of paragraph p */
+    color:rgb(0, 0, 0); /* color  and font style of the contents of paragraph p */
     font-style: italic;
     font-size: medium;
     font-weight: bold;
 }
 p1 {
-    color:blue;  /* color  and font style of the contents of paragraph p1 */
+    color:rgb(0, 0, 0);  /* color  and font style of the contents of paragraph p1 */
     font-weight: bolder;
     font-size: xx-large;
 }
