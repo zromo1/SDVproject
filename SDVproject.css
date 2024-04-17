@@ -37,8 +37,12 @@ p {
 p1 {
     color:rgb(0, 0, 0);  /* color  and font style of the contents of paragraph p1 */
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: xx-large; 
 }
 body {
     text-align:justify;
+}
+
+#viz1712898247077, #viz1713159065117, #viz1713335926316 {
+    margin-bottom: 100px;
 }
