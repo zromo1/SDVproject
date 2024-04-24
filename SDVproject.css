@@ -19,7 +19,7 @@ h1 {
     margin:0;
     padding:0;
 }
-h3 {
+h2 {
     text-align: center;
     color: white;
     text-shadow:
@@ -31,7 +31,7 @@ h3 {
 p {
     color:rgb(0, 0, 0); /* color  and font style of the contents of paragraph p */
     font-style: italic;
-    font-size: medium;
+    font-size: large;
     font-weight: bold;
 }
 p1 {

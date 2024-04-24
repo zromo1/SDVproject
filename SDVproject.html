@@ -6,13 +6,16 @@
         <link href="SDVproject.css" rel="stylesheet" />
     </head>
     <body>
-        <h1 style ="font-size: 50px">Scientific Data Visualization Project</h1>
-        <h3> Zoe Romo & Jaret Hodges</h3>
-        <p1>Covid Vaccination Analysis</p>
-        <p style ="font-size: 20px">Visualization by country for trends between Covid cases and Covid vaccination distributions</p>
+        <h1 style ="font-size: 65px">Scientific Data Visualization Project</h1>
+        <h2> Zoe Romo & Jaret Hodges</h2>
+        <p1 id='VizTitle' style ="font-size: 38px">Covid Vaccination Analysis</p>
+        <p style ="font-size: 25px; margin-top: 0.2em">A Study on the Correlation And Effectiveness of Covid Vaccinations on the Spread of COVID19</p>
         
         <script src="//d3js.org/d3.v7.min.js"></script> <!--Add d3.js library-->
         <script src = "SDVproject.js"></script>
+
+        <p3 style ="font-size: 30px">Global Covid Case Percentages Per Country</p3>
+        <p style ="font-size: 25;">Simply slide the slider at the bottom to select the month and year you would like to analyze. </p>
 
         <div class='tableauPlaceholder' id='viz1713335926316' style='position: relative'>
             <noscript>
@@ -49,11 +52,14 @@
         else { 
             vizElement.style.width='100%';
             vizElement.style.height='727px';
-        }                     
+        }                                
         var scriptElement = document.createElement('script');                    
         scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
         vizElement.parentNode.insertBefore(scriptElement, vizElement);                
         </script>
+
+    <p3 style ="font-size: 30px">Global Covid Vaccination Percentages Per Country</p3>
+    <p style ="font-size: 25;">Simply slide the slider at the bottom to select the month and year you would like to analyze. </p>
 
     <div class='tableauPlaceholder' id='viz1713401692564' style='position: relative'>
         <noscript>
@@ -98,6 +104,9 @@
         vizElement.parentNode.insertBefore(scriptElement, vizElement);                
     </script>
 
+        <p3 style ="font-size: 30px">Covid Cases Vs People Vaccinated Comparison Per Country</p3>
+        <p style ="font-size: 25;">Click on any country you'd like to examine, and below the map will display a visualization comparison between the number of people vaccinated in that country and the number of positive cases per month.</p>
+
         <div class='tableauPlaceholder' id='viz1712898247077' style='position: relative'>
             <noscript>
                 <a href='#'>
@@ -135,6 +144,9 @@
         scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
         vizElement.parentNode.insertBefore(scriptElement, vizElement);                
         </script>
+
+        <p3 style ="font-size: 30px">Vaccination Distribution By Manufacturer</p3>
+        <p style ="font-size: 25;">Click any country on the right to display the vaccines that were distributed per manufacturer. Below shows the number of reported Covid cases for that country to determine whether there is any correlation between vaccine types and their effectiveness on Covid.</p>
 
         <div class='tableauPlaceholder' id='viz1713159065117' style='position: relative'>
             <noscript>
